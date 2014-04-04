@@ -1,6 +1,6 @@
 /**
- * Author: Vinayak Bansal
- * Mar 24, 2014
+ * 
+ * @author Vinayak Bansal Dated Apr 3, 2014 
  */
 
 import gnu.io.CommPortIdentifier;
@@ -35,7 +35,7 @@ public class SerialTest implements SerialPortEventListener {
 	private static final int DATA_RATE = 9600;
 
 	public void initialize() {
-		
+
 		dataHandler = new DataHandler();
 		CommPortIdentifier portId = null;
 		@SuppressWarnings("rawtypes")
@@ -128,16 +128,16 @@ public class SerialTest implements SerialPortEventListener {
 		t.start();
 		t.join();
 		main.close();
-//		PrintWriter pw = null;
-//		try {
-//			pw = new PrintWriter("abc.txt");
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//		for (int x = 0; x < values[0].length; x++) {
-//			pw.println(values[0][x] + "  " + values[1][x]);
-//		}
-//		pw.close();
+		// PrintWriter pw = null;
+		// try {
+		// pw = new PrintWriter("abc.txt");
+		// } catch (IOException e) {
+		// e.printStackTrace();
+		// }
+		// for (int x = 0; x < values[0].length; x++) {
+		// pw.println(values[0][x] + "  " + values[1][x]);
+		// }
+		// pw.close();
 
 		// add a line plot to the PlotPanel
 	}

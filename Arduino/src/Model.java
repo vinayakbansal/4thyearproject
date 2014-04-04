@@ -1,6 +1,6 @@
 /**
- * Author: Vinayak Bansal
- * Mar 24, 2014
+ * 
+ * @author Vinayak Bansal Dated Apr 3, 2014 
  */
 
 import org.apache.commons.collections4.queue.CircularFifoQueue;
@@ -10,12 +10,10 @@ public class Model {
 	public static int MAX = 500;
 	private CircularFifoQueue<Double> data;
 	private CircularFifoQueue<Double> xaxis;
-	
 
-	
 	public Model() {
 		startTime = System.currentTimeMillis();
-		data =  new CircularFifoQueue<Double>(MAX);
+		data = new CircularFifoQueue<Double>(MAX);
 		xaxis = new CircularFifoQueue<Double>(MAX);
 	}
 

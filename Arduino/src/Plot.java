@@ -1,7 +1,8 @@
 /**
- * Author: Vinayak Bansal
- * Mar 24, 2014
+ * 
+ * @author Vinayak Bansal Dated Apr 3, 2014 
  */
+
 import javax.swing.JFrame;
 
 import org.math.plot.Plot2DPanel;

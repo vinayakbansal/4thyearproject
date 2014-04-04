@@ -1,8 +1,13 @@
+/**
+ * 
+ * @author Vinayak Bansal Dated Apr 3, 2014
+ * 
+ */
 
-public class DataHandler implements IHandleData{
+public class DataHandler implements IHandleData {
 	private Model model;
 	private Plot p;
-	
+
 	public DataHandler() {
 		model = new Model();
 		p = new Plot();
@@ -18,7 +23,7 @@ public class DataHandler implements IHandleData{
 		model.addValue(value);
 		refresh();
 	}
-	
+
 	private void refresh() {
 		double[][] values = model.getValues();
 		double[] der = new double[values[0].length];

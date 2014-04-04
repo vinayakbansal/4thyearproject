@@ -1,7 +1,9 @@
 /**
- * Author: Vinayak Bansal
- * Mar 24, 2014
+ * 
+ * @author Vinayak Bansal Dated Apr 3, 2014 
  */
+
+// TODO Vinayak Bansal: Remove this file once we test on a real Arduino
 
 import gnu.io.CommPortIdentifier;
 import gnu.io.SerialPort;
