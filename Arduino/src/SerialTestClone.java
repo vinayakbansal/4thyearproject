@@ -21,7 +21,7 @@ import javax.swing.JFrame;
 
 import org.math.plot.Plot2DPanel;
 
-public class SerialTest implements SerialPortEventListener {
+public class SerialTestClone implements SerialPortEventListener {
 	SerialPort serialPort;
 	public List<Double> data;
 	public List<Double> xaxis;
@@ -124,7 +124,7 @@ public class SerialTest implements SerialPortEventListener {
 
 	public static void main(String[] args) throws Exception {
 		long time = System.currentTimeMillis();
-		SerialTest main = new SerialTest();
+		SerialTestClone main = new SerialTestClone();
 		main.initialize();
 		System.out.println("Started");
 		Thread t = new Thread() {
