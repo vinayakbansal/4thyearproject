@@ -20,7 +20,7 @@ public class SerialTest implements SerialPortEventListener {
 	// Mac OS X
 	private static final String PORT_NAMES[] = { "/dev/tty.usbserial-A9007UX1",
 			"/dev/ttyUSB0", // Linux
-			"COM4", // Windows
+			"COM8", // Windows
 	};
 	/**
 	 * A BufferedReader which will be fed by a InputStreamReader converting the
@@ -126,9 +126,9 @@ public class SerialTest implements SerialPortEventListener {
 			}
 		};
 		t.start();
-		t.join();
-		main.close();
-		// PrintWriter pw = null;
+//		t.join();
+//		main.close();
+//		// PrintWriter pw = null;
 		// try {
 		// pw = new PrintWriter("abc.txt");
 		// } catch (IOException e) {
